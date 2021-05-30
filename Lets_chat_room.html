@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yeah chat </title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="let_chat_room.css" >
+<script src="LETCHATROOMPAGE.js"></script>
+</head>
+
+<body id="body">
+    <center>
+<div>
+ <button type="button" onclick="logout()" id="logout" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+ <h3 class="white_color" id= "welcome_lable">Welcome</h3><br><br><br>
+ <lable id="wel1" class="white_color">Welcome:<label class="white_color" id="welcom2"></label></lable><br><br> 
+
+ <div class="form-group input_div_room_page">
+     <label>#Add Room:</label><br>
+     <input type="text" placeholder="Enter room name" id= "roomname" class="form-control"><br><br>
+ </div>
+ <button class="btn btn-success" type="button" onclick="rooomcreate()">#Add Room</button> <br><br> 
+ <h3 class="white_color">#TRENDINGROOMS</h3><br><br>
+ <div id="output">
+     
+ </div>
+</div>
+</center>
+
+</body>
